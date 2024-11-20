@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayford Afriyie PDF to DOCX Converter</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Upload a PDF to Convert to DOCX</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">Choose PDF file:</label>
+            <input type="file" name="file" id="file" accept=".pdf" required>
+            <input type="submit" value="Convert PDF to DOCX">
+        </form>
+        <div class="footer">
+            <p>Powered by Hayford Afriyie</p>
+        </div>
+    </div>
+
+</body>
+</html>
